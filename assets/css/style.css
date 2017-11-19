@@ -1,0 +1,40 @@
+body {
+	background-image: url("../images/ships.jpg");
+	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+}
+
+#button-clear {
+	margin: 20px 0px 20px 0px ;
+}
+
+
+.individual-player{
+	margin: auto;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 4px grey solid;
+}
+
+.battle-player {
+	margin: auto;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 4px green solid;
+}
+
+.enemy {
+	border: 4px red solid;
+}
+
+.defeated-player {
+	margin: auto;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 4px black solid;
+}
